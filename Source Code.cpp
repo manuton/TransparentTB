@@ -40,7 +40,7 @@ int main() {
     SetWindowLong(taskbar, GWL_EXSTYLE, style | WS_EX_LAYERED);
 
 
-    BYTE transparency = 120;  // Change value 180 semi transparent
+    BYTE transparency = 360;  // Change value 180 semi transparent
     SetLayeredWindowAttributes(taskbar, 0, transparency, LWA_ALPHA);
 
     return 0;
